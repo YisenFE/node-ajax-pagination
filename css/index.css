@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/*-- index --*/
+.box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 800px;
+    border: 2px solid green;
+}
+
+.box h2 {
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    background: green;
+}
+
+.box h2 span,
+.con li span {
+    float: left;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.con {
+    height: 300px;
+}
+
+.con li {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/* 使用css3的属性实现隔行变色和鼠标滑过变色 */
+.con li:nth-child(even) {
+    background: #EEE;
+}
+
+.con li:hover {
+    background: #E0F2BE;
+}
+
+.page {
+    float: right;
+    height: 22px;
+}
